@@ -3,7 +3,7 @@ from aiogram.types import ReplyKeyboardMarkup, ReplyKeyboardRemove, KeyboardButt
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from random import randint
 
-bot = Bot(token='5359575178:AAEVMdZ6MfY6SxSiybAx_CB8fXOCqjkVkIc')
+bot = Bot(token='YOUR_TOKEN_HERE')
 dp = Dispatcher(bot)
 
 button1 = InlineKeyboardButton(text="👋 button1", callback_data="randomvalue_of10")
